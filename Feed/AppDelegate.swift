@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Feed
 //
-//  Created by Duash on 8/25/20.
+//   Created by Duash on 8/26/20.
 //  Copyright © 2020 Duale. All rights reserved.
 //
 
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 3)
         return true
     }
 
